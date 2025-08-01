@@ -24,15 +24,14 @@ class CardPayment extends Payment {
 
 public class example_overriding {
     public static void main(String[] args) {
-        Payment p;
 
-        p = new Payment();
-        p.pay(); // Output: Paying using default method
+        Payment p1 = new Payment();
+        p1.pay(); // Output: Paying using default method
 
-        p = new UPIPayment();
-        p.pay(); // Output: Paying using UPI
+        Payment p2 = new UPIPayment();
+        p2.pay(); // Output: Paying using UPI
 
-        p = new CardPayment();
-        p.pay(); // Output: Paying using Credit Card
+        Payment p3 = new CardPayment();
+        p3.pay(); // Output: Paying using Credit Card
     }
 }

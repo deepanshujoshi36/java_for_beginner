@@ -1,7 +1,7 @@
 package class_object;
-class animal{ // creating a class name animal
+class animal{ // creating a class name animaly
     String name;
-    String color;
+    String color;1
     public void voice(){
         System.out.println("bark");
     }

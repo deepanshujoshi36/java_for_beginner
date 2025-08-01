@@ -8,7 +8,7 @@ class student{
         return name ;
     }
     //public setter for name 
-    public void setName(String name){
+    public void setName(String n){
         this.name = name ;
     }
     //public getter for age
