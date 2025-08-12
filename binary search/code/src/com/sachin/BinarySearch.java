@@ -3,7 +3,7 @@ package com.sachin;
 
 import java.util.Scanner;
 
-public class Main {
+public class BinarySearch {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         int[] arr = { 1 , 2  , 3 , 4 , 5 , 6 , 7 , 8 , 45 , 455 , 4555  , 9999};

@@ -11,7 +11,7 @@ public class Order_agnostic_binarySearch {
         int start = 0 ;
         int end = arr.length - 1 ;
 
-        //check if it is ascending or not
+        //check if it is ascending or not+h
         boolean ascending = arr[start] < arr[end];
 
         while(start <= end){
