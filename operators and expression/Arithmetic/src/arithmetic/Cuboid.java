@@ -6,11 +6,19 @@ public class Cuboid{
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the length breadth and height of cuboid(in m):");
         float length , breadth , height ;
+        
+        //below are the input needed to find area and volume of cuboid 
         length = in.nextFloat();
         breadth = in.nextFloat();
         height = in.nextFloat();
+        
+        //area is holding the value return by the method surfaceArea
         double area = surfaceArea(length , breadth , height);
+        
+        //volume is holding the value return by the method volume
         double volume = volume(length , breadth , height );
+        
+        //printing the value of area and volume in below 2 lines
         System.out.println("The Surface area of the given data is : " + area + " squareMetre");
         System.out.println("The volume of the given data is : " + volume + " cubicMetre");
     }
